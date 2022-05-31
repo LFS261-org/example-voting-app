@@ -1,3 +1,4 @@
+#Pipeline for worker app
 pipipeline {
 
     agent any
@@ -14,7 +15,7 @@ pipipeline {
                echo 'Compiling worker app'
                dir('worker'){
                  sh 'mvn compile'
-              }
+               }
             }
         }
         stage('test') {
