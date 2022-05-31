@@ -1,4 +1,4 @@
-#Pipeline for worker app
+#Pipeline for worker app and branches. 
 pipipeline {
 
     agent any
